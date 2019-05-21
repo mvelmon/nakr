@@ -21,5 +21,5 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', include('nakr_consulting.urls', namespace = 'nakr_consulting')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    url(r'^', include('nakr_consulting.urls', namespace = 'nakr_consulting')),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
