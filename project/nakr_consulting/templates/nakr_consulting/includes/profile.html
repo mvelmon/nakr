@@ -1,15 +1,11 @@
+{% load static %}
 <div id="profile" class="profile-section  bg-color section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <div class="section-title">
-                    <h1>My Resume</h1>
-                </div>
-            </div>
             <div class="col-sm-8">
                 <div class="section-content">
                     <div class="profile-logo">
-                        <img class="img-responsive" src="images/profile.jpg" alt="Image">
+                        <img class="img-responsive" src="{% static 'nakr_consulting/images/profile.jpg'%}" alt="Image">
                     </div>
                     <div class="profile-info">
                         <h1>Surzil Geek</h1>
@@ -269,7 +265,7 @@
                     </div>
                 </div>
                 <div class="button">
-                    <a href="#" class="btn btn-primary">Download My Resume as a .pdf file</a>
+                    <a href="cv.pdf" class="btn btn-primary">Download My Resume as a .pdf file</a>
                 </div>
             </div>
         </div><!-- row -->
