@@ -1,6 +1,0 @@
-Alias /static /Users/mvelmon/Documents/NAKR_Website/project/static
-<Directory "/Users/mvelmon/Documents/NAKR_Website/project/static">
-        <Files ".css">
-                Require all granted
-        </Files>
-</Directory>
