@@ -1,0 +1,12 @@
+ul>li{
+    list-style-position: none;
+}
+
+#skill ul>li, #exprience ul>li{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+#navbar-brand logo{
+    background-color: rgb(225, 225, 225)
+}
