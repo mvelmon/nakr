@@ -1,0 +1,519 @@
+#topcontainer {
+    /*
+    font-family: 'NexaLight';
+    */
+    margin-bottom:25px;
+    margin-top:30px;
+}
+
+#topcontainer h4{
+    margin-top:12px;
+    margin-left:20px;
+}
+
+#myCarousel{
+    padding: 0px;
+    margin: 0px;
+}
+
+.carousel-caption {
+    /*
+    font-family: 'NexaLight';
+    */
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.75);
+    
+    /*font-family: "Helvetica Neue", "NexaLight", Helvetica,Arial,sans-serif;
+    font-family: 'NexaLight';*/
+    color: #666F82;
+    padding: 0px;
+    text-align: left;
+}
+
+.carousel-caption h4{
+    
+    /*font-family: "Helvetica Neue", "NexaLight", Helvetica,Arial,sans-serif;
+    font-family: 'NexaLight';*/
+    margin: 20px 20px 5px 20px;
+}
+
+.carousel-caption h3{
+    
+    /*font-family: "Helvetica Neue", "NexaLight", Helvetica,Arial,sans-serif;
+    font-family: 'NexaLight';*/
+    margin: 20px 20px 25px 20px;
+}
+
+#nakrnavbar  {
+    background: #666F82;
+    color: white;
+    /*height: 90%;
+     */
+    min-height: 50px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: none;/*1px solid transparent;*/
+}
+
+.navbar-nakr{
+    background-color:#666F82;
+    border-color:#080808
+}
+
+.navbar-nakr .navbar-toggle .icon-bar{
+    background-color:#D1B7A9;
+    color:#D1B7A9
+}
+
+#nakrnavbar ul>li>a  {
+    margin-top: 3px;
+    color: white;
+    font-weight: normal;
+}
+
+#nakrnavbar ul>li>a:hover {
+    background: #5B6578;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/*
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+}
+*/
+#nakrheading1  {
+    background: #D1B7A9;
+    color: white;
+    min-height: 150px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    margin-top:0px;
+    */
+}
+
+#nakrheading1 h1 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin-top:50px;
+    text-align: center;
+}
+
+#nakrheading1 h2 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    /*margin-top:50px;*/
+    text-align: center;
+}
+
+.container h1 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+}
+
+.container h4 {
+    color: #666F82;
+    font-weight: normal;
+}
+
+#nakrtext1  {
+    min-height: 1100px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+#nakrheading2  {
+    color: #FFFFFF;
+    background: #666F82;
+    min-height: 535px;
+    margin-bottom:20px;
+    margin-top:0px;
+    padding-bottom: 20px;
+
+    text-align: left;
+}
+
+#nakrheading2 h1 {
+    color: #FFFFFF;
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    font-size: 36px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+#nakrheading2 h2 {
+    color: #FFFFFF;
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    font-size: 25px;
+    /*
+    margin-bottom:0px;
+    */
+    margin-top:20px;
+    margin-bottom:15px;
+    text-align: center;
+}
+
+#nakrheading2 p {
+    color: #FFFFFF;
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    font-size: 15px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin:5px;
+    text-align: left;
+    /*text-align: justify;*/
+}
+
+#nakrheading2 ul>li {
+    margin-left: -10px;
+    margin-right: 5px;
+    margin-top:10px;
+    margin-bottom:15px;
+
+    text-align: left;
+}
+
+#nakrheading3  {
+    color: #667284;
+    min-height: 450px;
+    margin-bottom:30px;
+    margin-top:0px;
+}
+
+#nakrheading3  h1 {
+    color: #667284;
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    font-size: 36px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+#nakrheading3  h3 {
+    color: #667284;
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*
+    font-size: 36px;
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin:15px;
+    text-align: left;
+}
+
+#nakrheading3  h4{
+    /*
+    color: #667284;
+    font-family: 'NexaLight';
+    font-weight: normal;
+    font-size: 36px;
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin:15px;
+    text-align: left;
+}
+
+#nakrheading3 a{
+    /*
+    color: #667284;
+    font-family: 'NexaLight';
+    font-weight: normal;
+    font-size: 36px;
+    padding: 0;
+    margin-bottom:0px;
+    */
+    font-size: 1.3em;
+    color: #667284;
+    margin:15px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#nakrheading4  {
+    /*
+    font-family: 'NexaBold';
+    */
+    color: #667284;
+    background: #EDE2DD;
+    min-height: 500px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+#nakrheading4  h1 {
+    color: #667284;
+    font-weight: normal;
+    font-size: 25px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+#nakrheading5  {
+    color: #ffffff;
+    background: #666F82;
+    min-height: 270px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+#nakrheading5  p{
+    margin:20px;
+    /*
+    font-family: 'NexaLight';
+    */
+    text-align: center;
+}
+
+#nakrheading5  a{
+    color: #ffffff;
+}
+
+#nakrheading5  h3{
+    margin-top:30px;
+    margin-bottom:10px;
+    /*
+    font-family: 'NexaBold';
+    */
+    text-align: center;
+}
+
+#nakrheading6 {
+    color: #ffffff;
+    background: #666F82;
+    min-height: 150px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    margin-top:0px;
+    */
+}
+
+#nakrheading6  h1 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin-top:50px;
+    text-align: center;
+}
+
+#nakrheading6 h2 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    /*margin-top:50px;*/
+    text-align: center;
+}
+
+#nakrheading6 p {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    */
+    margin-bottom:50px;
+    margin-top:20px;
+    text-align: center;
+}
+
+#nakrheading7 {
+    color: #ffffff;
+    background: #666F82;
+    min-height: 150px;
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    margin-top:0px;
+    */
+}
+
+#nakrheading7 h1 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    margin-top:50px;
+    text-align: center;
+}
+
+#nakrheading7 h2 {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    margin-bottom:0px;
+    */
+    /*margin-top:50px;*/
+    text-align: center;
+}
+
+#nakrheading7 p {
+    /*
+    font-family: 'NexaLight';
+    */
+    font-weight: normal;
+    /*font-size: 36px;*/
+    /*
+    padding: 0;
+    */
+    margin-bottom:50px;
+    margin-top:20px;
+    text-align: center;
+}
+
+.img-rounded{
+    margin: 30px;
+}
+
+.btn-default{
+    color:#fff;
+    float: right;
+    /*
+    font-family: 'NexaLight';
+    */
+    background-color:#666F82;
+    border-color:#ccc
+}
+/*.btn-default.focus,.btn-default:focus{color:#333;background-color:#e6e6e6;border-color:#8c8c8c}.btn-default:hover{color:#333;background-color:#e6e6e6;border-color:#adadad}
+ */
+
+.modal-header{
+    background: #EDE2DD;
+}
+
+.modal-body p{
+    text-align: justify;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    color: #ffffff;
+    background: #666F82;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.dark{
+    background-color:#666F82;
+    color: white;
+    min-height: 181px
+}
+
+.dark p{
+    color: white;
+}
+
+.dark a:hover {
+    color: white;
+    text-decoration: none;
+}

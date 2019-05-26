@@ -4,5 +4,5 @@ from django.conf.urls import url
 
 app_name = 'consulting'
 urlpatterns = [
-    url('', IndexPageView.as_view(), name='index')
+    url('nakr_consulting', IndexPageView.as_view(), name='index')
 ]
