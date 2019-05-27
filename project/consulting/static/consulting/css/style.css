@@ -1,7 +1,4 @@
 #topcontainer {
-    /*
-    font-family: 'NexaLight';
-    */
     margin-bottom:25px;
     margin-top:30px;
 }
@@ -17,38 +14,24 @@
 }
 
 .carousel-caption {
-    /*
-    font-family: 'NexaLight';
-    */
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.75);
-    
-    /*font-family: "Helvetica Neue", "NexaLight", Helvetica,Arial,sans-serif;
-    font-family: 'NexaLight';*/
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.75);
     color: #666F82;
     padding: 0px;
     text-align: left;
 }
 
 .carousel-caption h4{
-    
-    /*font-family: "Helvetica Neue", "NexaLight", Helvetica,Arial,sans-serif;
-    font-family: 'NexaLight';*/
     margin: 20px 20px 5px 20px;
 }
 
 .carousel-caption h3{
-    
-    /*font-family: "Helvetica Neue", "NexaLight", Helvetica,Arial,sans-serif;
-    font-family: 'NexaLight';*/
     margin: 20px 20px 25px 20px;
 }
 
 #nakrnavbar  {
     background: #666F82;
     color: white;
-    /*height: 90%;
-     */
     min-height: 50px;
     margin-bottom:0px;
     margin-top:0px;
@@ -92,66 +75,44 @@
         text-align: center;
     }
 }
-/*
-.navbar.center .navbar-inner .nav {
-    float: none;
-    display:inline-block;
-}
-*/
+
 #nakrheading1  {
     background: #D1B7A9;
     color: white;
     min-height: 150px;
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    margin-top:0px;
-    */
+    font-size: 1.1em;
 }
 
 #nakrheading1 h1 {
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*font-size: 36px;*/
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
-    margin-top:50px;
+    margin-top:35px;
     text-align: center;
 }
 
 #nakrheading1 h2 {
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*font-size: 36px;*/
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
-    /*margin-top:50px;*/
+    text-align: center;
+}
+
+#nakrheading1 p {
+    font-weight: normal;
+    margin-bottom:35px;
+    margin-top:20px;
     text-align: center;
 }
 
 .container h1 {
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*font-size: 36px;*/
 }
 
 .container h4 {
     color: #666F82;
     font-weight: normal;
+    font-size: 1.1em;
 }
 
 #nakrtext1  {
-    min-height: 1100px;
+    min-height: 1050px;
     margin-bottom:0px;
     margin-top:0px;
 }
@@ -159,40 +120,27 @@
 #nakrheading2  {
     color: #FFFFFF;
     background: #666F82;
-    min-height: 535px;
+    min-height: 350px;
     margin-bottom:20px;
     margin-top:0px;
     padding-bottom: 20px;
-
     text-align: left;
+    font-size: 1.1em;
 }
 
 #nakrheading2 h1 {
     color: #FFFFFF;
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
     font-size: 36px;
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:35px;
+    margin-bottom:35px;
     text-align: center;
 }
 
 #nakrheading2 h2 {
     color: #FFFFFF;
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
     font-size: 25px;
-    /*
-    margin-bottom:0px;
-    */
     margin-top:20px;
     margin-bottom:15px;
     text-align: center;
@@ -200,18 +148,10 @@
 
 #nakrheading2 p {
     color: #FFFFFF;
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    font-size: 15px;
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
+    font-size: 1.1em;
     margin:5px;
     text-align: left;
-    /*text-align: justify;*/
 }
 
 #nakrheading2 ul>li {
@@ -219,7 +159,6 @@
     margin-right: 5px;
     margin-top:10px;
     margin-bottom:15px;
-
     text-align: left;
 }
 
@@ -228,64 +167,34 @@
     min-height: 450px;
     margin-bottom:30px;
     margin-top:0px;
+    font-size: 1.1em;
 }
 
 #nakrheading3  h1 {
     color: #667284;
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
     font-size: 36px;
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:35px;
+    margin-bottom:35px;
     text-align: center;
 }
 
 #nakrheading3  h3 {
     color: #667284;
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*
-    font-size: 36px;
-    padding: 0;
-    margin-bottom:0px;
-    */
     margin:15px;
     text-align: left;
 }
 
 #nakrheading3  h4{
-    /*
-    color: #667284;
-    font-family: 'NexaLight';
-    font-weight: normal;
-    font-size: 36px;
-    padding: 0;
-    margin-bottom:0px;
-    */
     margin:15px;
     text-align: left;
 }
 
 #nakrheading3 a{
-    /*
+    font-size: 1.2em;
     color: #667284;
-    font-family: 'NexaLight';
-    font-weight: normal;
-    font-size: 36px;
-    padding: 0;
-    margin-bottom:0px;
-    */
-    font-size: 1.3em;
-    color: #667284;
-    margin:15px;
+    margin:15 0 15 0;
     text-align: left;
     text-decoration: none;
 }
@@ -317,16 +226,13 @@
 #nakrheading5  {
     color: #ffffff;
     background: #666F82;
-    min-height: 270px;
+    min-height: 200px;
     margin-bottom:0px;
     margin-top:0px;
 }
 
 #nakrheading5  p{
     margin:20px;
-    /*
-    font-family: 'NexaLight';
-    */
     text-align: center;
 }
 
@@ -337,9 +243,6 @@
 #nakrheading5  h3{
     margin-top:30px;
     margin-bottom:10px;
-    /*
-    font-family: 'NexaBold';
-    */
     text-align: center;
 }
 
@@ -347,51 +250,23 @@
     color: #ffffff;
     background: #666F82;
     min-height: 150px;
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    margin-top:0px;
-    */
+    font-size: 1.1em;
 }
 
 #nakrheading6  h1 {
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*font-size: 36px;*/
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
-    margin-top:50px;
+    margin-top:35px;
     text-align: center;
 }
 
 #nakrheading6 h2 {
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*font-size: 36px;*/
-    /*
-    padding: 0;
-    margin-bottom:0px;
-    */
-    /*margin-top:50px;*/
     text-align: center;
 }
 
 #nakrheading6 p {
-    /*
-    font-family: 'NexaLight';
-    */
     font-weight: normal;
-    /*font-size: 36px;*/
-    /*
-    padding: 0;
-    */
-    margin-bottom:50px;
+    margin-bottom:35px;
     margin-top:20px;
     text-align: center;
 }
@@ -511,9 +386,10 @@ body {
 
 .dark p{
     color: white;
+    margin : 15px
 }
 
-.dark a:hover {
+.dark p a {
     color: white;
     text-decoration: none;
 }
